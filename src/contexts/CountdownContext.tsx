@@ -60,7 +60,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
       startCountdown,
       resetCountdown
     }}>
-      {children}
+      { children}
     </CountdownContext.Provider>
   )
 }
